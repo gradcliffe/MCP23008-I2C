@@ -1,4 +1,4 @@
-#include "Adafruit_MCP23008.h"
+#include "MCP23008.h"
 
 // Basic toggle test for i/o expansion. flips pin #0 of a MCP23008 i2c
 // pin expander up and down. Public domain

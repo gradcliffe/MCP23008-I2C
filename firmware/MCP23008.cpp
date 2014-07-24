@@ -14,7 +14,7 @@
 #include <stdint.h>
 #include <spark_wiring_i2c.h>
 
-#include "Adafruit_MCP23008.h"
+#include "MCP23008.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
