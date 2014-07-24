@@ -1,4 +1,4 @@
-#include "MCP23008-I2C.h"
+#include "MCP23008-I2C/MCP23008-I2C.h"
 
 // Basic pin reading and pullup test for the MCP23008 I/O expander
 // public domain!
