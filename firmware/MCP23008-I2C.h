@@ -15,6 +15,7 @@
 #define _ADAFRUIT_MCP23008_H
 
 #include <stdint.h>
+#include "application.h"
 
 // Don't forget the Wire library
 class Adafruit_MCP23008 {
