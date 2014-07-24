@@ -14,7 +14,7 @@
 #include <stdint.h>
 #include <spark_wiring_i2c.h>
 
-#include "MCP23008.h"
+#include "MCP23008-I2C.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
