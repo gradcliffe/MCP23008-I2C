@@ -1,0 +1,7 @@
+{
+  "name": "MCP23008-I2C",
+  "author": "Limor Fried/Ladyada",
+  "license": "BSD",
+  "version": "0.0.10",
+  "description": "A version of Ladyada's MCP23008 8-bit I2C IO Expander library, ported for use on Spark Core."
+}
