@@ -26,7 +26,10 @@ void Adafruit_MCP23008::begin(uint8_t addr) {
   }
   i2caddr = addr;
 
-  Wire.begin();
+  // Initialize the I2C bus if not already enabled
+  if ( !Wire.isEnabled() ) {
+    Wire.begin();
+  }
 
   // set defaults!
   Wire.beginTransmission(MCP23008_ADDRESS | i2caddr);
